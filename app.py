@@ -76,7 +76,7 @@ def main():
         #converting to category string
         category_predicted = category_mapper.get(prediction_id, 'Unknown')
 
-        st.write("You resume seems to be related to  ",category_predicted," !!")
+        st.write("Your resume seems to be related to  ",category_predicted," !!")
 
 if __name__ == "__main__":
     main()
