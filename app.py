@@ -56,6 +56,7 @@ category_mapper = {6: 'Data Science',
 
 #web app
 def main():
+    st.write("[LinkedIn](https://www.linkedin.com/in/ajzkrish/)"," | ","[Github](https://github.com/ajay-ajzkrish)")
     st.title('Resume Designation Predictor')
     upload_file = st.file_uploader('Upload Your Resume',type = ['pdf','txt'])
     if upload_file is not None:
